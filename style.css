@@ -8,13 +8,27 @@
 }
 
 @font-face {
+    font-family: Segoe WP Lite;
+    src: url('./fonts/Segoe_WP_Light.ttf');
+}
+
+@font-face {
+    font-family: Segoe UI Bold;
+    src: url('./fonts/segoeUiBold.ttf');
+}
+@font-face {
     font-family: Asap;
     src: url('./fonts/asap_regular.ttf');
 }
 
 @font-face {
-    font-family: Segoe UI;
-    src: url('./fonts/Segoe_WP_Light.ttf');
+    font-family: Segoe UI Regular;
+    src: url('./fonts/segoeUiRegular.ttf');
+}
+
+@font-face{
+    font-family: PT Sans;
+    src: url('./fonts/PTSans_regular.ttf')
 }
 
 *{
@@ -167,7 +181,7 @@ body{
 .slider_block_heading {
     text-align: center;
     text-transform: uppercase;
-    padding-right: 19px;
+    padding-right: 25px;
     padding-bottom: 30px;
 }
 
@@ -200,7 +214,7 @@ h1 {
 
 .icon_area {
     list-style: none;
-    font-family: Segoe UI;
+    font-family: Segoe UI Regular;
     text-transform: uppercase;
     font-size: 1.69em;
     line-height: 1;
@@ -247,3 +261,158 @@ h1 {
     padding-bottom: 20px;
     letter-spacing: 0.27px;
 }
+
+.scroll_slider{
+    background: url(./img/scroll\ slider\ block/scroll_background.png);
+}
+
+.scroll_slider_block{
+    display: flex;
+    flex-direction:column;
+}
+
+.scroll_slider_block_name{
+    font-weight: 400;
+    font-size: 2.313em;
+    text-transform: uppercase;
+    font-family: PT Sans;
+    color: #ffffff;
+    padding-top: 33px;
+    letter-spacing: 0.37px;
+}
+
+.scroll_slider_block_main_content{
+    display: flex;
+    padding-top: 31px;
+}
+
+.scroll_slider_block_main_content_left {
+    width: 100%;
+    align-items: center;
+    background-color: #ec9e03;
+    position: relative;
+}
+.scroll_slider_block_main_content_left_text{
+    font-family: Segoe WP lite;
+    font-size: 29px;
+    padding: 17px 0 0 29px;
+    letter-spacing: 0.29px;
+    color: #ffffff;
+    line-height: 38px;
+    }
+
+.scroll_slider_block_main_content_left_data{
+    height: 86px;
+    width: 112px;
+    background-color: #ddb101;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    transform: translate(0, 100%);
+}
+
+.data_time_number{
+    padding-top: 15px;
+    font-weight: 700;
+    color: #fff;
+    font-family: Segoe UI Bold;
+    font-size: 3.188em;
+    line-height: 38px;
+    letter-spacing: 0.51px;
+}
+
+.data_time_month{
+    color: #b26529;
+    text-transform: uppercase;
+    font-family: Segoe UI Regular;
+    font-size: 1.313em;
+    line-height: 38px;
+    letter-spacing: 0.21px;
+}
+
+.scroll_slider_block_main_content_left_plus {
+    position: absolute;
+    left: 92.7%;
+}
+
+.scroll_slider_block_main_content_left_plus_link{
+    display: block;
+}
+
+.scroll_slider_block_main_content_center{
+    width: 100%;
+}
+
+.scroll_slider_block_main_content_right{
+    height: 233px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3px;
+}
+.scroll_slider_block_main_content_right_wrapper{
+    width: 329px;
+    background-color: #ec9e03;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.scroll-slider_block_main_content_right_wrapper_twitter{
+    padding-top: 20px;
+}
+
+.scroll-slider_block_main_content_right_wrapper_twitter_number{
+    display: block;
+    position: absolute;
+    top: 7%;
+    right: 5%;
+}
+
+.scroll-slider_block_main_content_right_wrapper_twitter_number_text{
+    font-family: Segoe WP;
+    font-size: 1.55em;
+    color: #ffff;
+    display: block;
+    line-height: 1;
+}
+
+.scroll_slider_block_main_content_right_plus{
+    position: absolute;
+    top: 88.5%;
+    left: 94.4%;
+}
+
+.scroll_slider_block_main_range{
+    margin: 0 auto;
+    padding: 125px 0 0 25px;
+    padding-bottom: 16px;
+    width: 87.8%;
+}
+
+.scroll_slider_block_main_range_input{
+    width: 100%;
+    height: 15px;
+    border-radius: 15px;
+    outline: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+.scroll_slider_block_main_range_input:hover{
+    opacity: 0.48;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    height: 15px;
+    width: 22%;
+    border-radius: 7px;
+    background-color: #ec9e03;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
