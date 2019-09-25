@@ -12,6 +12,11 @@
     src: url('./fonts/asap_regular.ttf');
 }
 
+@font-face {
+    font-family: Segoe UI;
+    src: url('./fonts/Segoe_WP_Light.ttf');
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -41,7 +46,7 @@ body{
     flex-wrap: wrap;
 }
 
-.main {
+.main ,.area {
     margin: 0 auto;
     width: 78.5%;
 }
@@ -54,7 +59,6 @@ body{
 }
 
 .logo_name {
-    display: block;
     font-size: 41px;
     color: #fff;
     text-transform: uppercase;
@@ -178,4 +182,68 @@ h1 {
 
 .heading_the_minimal_text {
     color: #fff;
+}
+
+.icon_block{
+    background-image: url(/img/icon\ block/background_icon.png)
+}
+
+.icon {
+    display:flex;
+    justify-content: space-between;
+}
+
+.icon_area.cloud, .icon_area.plane {
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+}
+
+.icon_area {
+    list-style: none;
+    font-family: Segoe UI;
+    text-transform: uppercase;
+    font-size: 1.69em;
+    line-height: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon_area_cloud_img {
+    padding-top: 60px;
+    padding-right: 7px;
+}
+
+.icon_area_cloud_name {
+    color: #000000;
+    font-weight: 300;
+    font-size: 27px;
+    padding-top: 14px;
+    padding-left: 17px;
+    padding-bottom: 35px;
+    letter-spacing: 0.27px;
+}
+
+.icon_area_leaf_img {
+    padding-top: 36px;
+    padding-left: 24px;
+}
+
+.icon_area_leaf_name {
+    padding-top: 18px;
+    padding-left: 19px;
+    padding-bottom: 20px;
+}
+
+.icon_area_plane_img {
+    padding-top: 53px;
+    padding-right: 21px;
+}
+
+.icon_area_plane_name {
+    padding-top: 13px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    letter-spacing: 0.27px;
 }
