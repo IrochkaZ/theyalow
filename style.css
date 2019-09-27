@@ -3,7 +3,6 @@
     src: url('./assets/fonts/LucidaSansItalic.ttf');
 }
 
-
 @font-face {
     font-family: Open Sans Regular;
     src: url('./assets/fonts/OpenSansRegular.ttf');
@@ -142,7 +141,7 @@ body{
     margin-left: .56em;
 }
 
-.slider_block {
+.slider_block{
     position: relative;
 }
 
@@ -220,7 +219,7 @@ body{
 }
 
 .icon_block{
-    background-image: url(/assets/img/icon\ block/background_icon.png)
+    background-image: url(./assets/img/icon-block/background_icon.png)
 }
 
 .icon {
@@ -284,7 +283,7 @@ body{
 }
 
 .scroll_slider{
-    background: url(./assets/img/scroll\ slider\ block/scroll_background.png);
+    background: url(./assets/img/scroll-slider-block/scroll_background.png);
 }
 
 .scroll_slider_block{
@@ -442,7 +441,7 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .media_block{
-    background-image: url(./assets/img/media\ screens\ block/background_screen.png);
+    background-image: url(./assets/img/media-screens-block/background_screen.png);
 }
 
 .media{
@@ -456,7 +455,6 @@ input[type=range]::-webkit-slider-thumb {
     color: #f5c506;
     font-family: PT Sans;
     font-size: 2.688em;
-    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.43px;
 }
@@ -505,8 +503,7 @@ input[type=range]::-webkit-slider-thumb {
 .media_block_screens_img_monitor_ellipse_text{
     color: #ffffff;
     font-family: PT Sans Narrow Bold;
-    font-size: 19px;
-    font-weight: 400;
+    font-size: 1.188em;
     text-transform: uppercase;
     letter-spacing: 0.51px;
 }
@@ -525,7 +522,7 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .media_block_screens_list_ul_li{
-    list-style-image: url(./assets/img/media\ screens\ block/marker.png);
+    list-style-image: url(./assets/img/media-screens-block/marker.png);
     font-family: Open Sans Regular;
     font-size: 1.375em;
     color: #a9a9a7;
@@ -534,7 +531,6 @@ input[type=range]::-webkit-slider-thumb {
     line-height: 1.2;
     padding-left: 17px;
 }
-
 
 .media_block_screens_list_ul_li:nth-child(3){
     margin-top: 13px;
@@ -545,13 +541,11 @@ input[type=range]::-webkit-slider-thumb {
     box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.75);
 }
 
-
 .footer_block_logo{
     display:flex;
     align-items: center;
     padding: 6px 0 4px 0;
 }
-
 
 .footer_block_logo_text{
     text-shadow: 0 2px 0 rgba(0, 0, 0, 0.42);
