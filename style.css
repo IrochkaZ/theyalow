@@ -335,6 +335,10 @@ body{
     transform: translate(0, 100%);
 }
 
+.scroll_slider_block_main_content_right_plus_link, .scroll_slider_block_main_content_left_plus_link:hover{
+    border: 1px solid #29B0D9;
+}
+
 .data_time_number{
     padding-top: 15px;
     font-weight: 700;
