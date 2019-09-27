@@ -197,11 +197,13 @@ body{
 .slider_block_heading {
     text-align: center;
     text-transform: uppercase;
-    padding-right: 25px;
-    padding-bottom: 30px;
+    padding-right: 27px;
+    padding-bottom: 9px;
+    display: flex;
+    flex-direction: column;
 }
 
-h1 {
+.slider_block_text, .heading_the_minimal_text {
     font-size: 3.94em;
     font-family: Asap;
     color: #f5c506;
@@ -212,6 +214,9 @@ h1 {
 
 .heading_the_minimal_text {
     color: #fff;
+    left: 8px;
+    position: relative;
+    bottom: 23px;
 }
 
 .icon_block{
