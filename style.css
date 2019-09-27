@@ -474,9 +474,9 @@ input[type=range]::-webkit-slider-thumb {
 
 .media_block_screens_img_monitor_img{
     display: block;
-position: relative;
-top: 36px;
-right: 24px;
+    position: relative;
+    top: 36px;
+    right: 24px;
 }
 
 
@@ -518,7 +518,7 @@ right: 24px;
 .media_block_screens_list_ul_li{
     list-style-image: url(./assets/img/media\ screens\ block/marker.png);
     font-family: Open Sans Regular;
-    font-size: 22px;
+    font-size: 1.375em;
     color: #a9a9a7;
     letter-spacing: 0.22px;
     margin-top: 25px;
@@ -529,4 +529,27 @@ right: 24px;
 
 .media_block_screens_list_ul_li:nth-child(3){
     margin-top: 13px;
+}
+
+.footer{
+    background-color:#4c4c4c;
+    box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.75);
+}
+
+
+.footer_block_logo{
+    display:flex;
+    align-items: center;
+    padding: 6px 0 4px 0;
+}
+
+
+.footer_block_logo_text{
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.42);
+    color: #ffffff;
+    font-family: Lucida Sans Italic;
+    font-size: 1.813em;
+    text-transform: uppercase;
+    letter-spacing: 0.29px;
+    padding-left:7px;
 }
