@@ -2,6 +2,13 @@
     font-family: Lucida Sans Italic;
     src: url('./assets/fonts/LucidaSansItalic.ttf');
 }
+
+
+@font-face {
+    font-family: Open Sans Regular;
+    src: url('./assets/fonts/OpenSansRegular.ttf');
+}
+
 @font-face {
     font-family: Segoe WP;
     src: url('./assets/fonts/Segoe_WP.ttf');
@@ -29,6 +36,11 @@
 @font-face{
     font-family: PT Sans;
     src: url('./assets/fonts/PTSans_regular.ttf')
+}
+
+@font-face{
+    font-family: PT Sans Narrow Bold;
+    src: url('./assets/fonts/PTSans_NarrowBold.ttf')
 }
 
 *{
@@ -420,3 +432,101 @@ input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
 }
 
+.media_block{
+    background-image: url(./assets/img/media\ screens\ block/background_screen.png);
+}
+
+.media{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-bottom:98px;
+}
+
+.media_block_head_h3{
+    color: #f5c506;
+    font-family: PT Sans;
+    font-size: 2.688em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.43px;
+}
+
+.media_block_head{
+    padding-top: 39px;
+    padding-left: 6px;
+}
+
+.media_block_screens{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.media_block_screens_img{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    padding-top: 9px;
+    padding-left: 43px;
+}
+
+.media_block_screens_img_monitor_img{
+    display: block;
+position: relative;
+top: 36px;
+right: 24px;
+}
+
+
+.media_block_screens_img_monitor_ellipse {
+    display: flex;
+    background-color: #f5c506;
+    height: 116px;
+    width: 116px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 3px;
+    left: -2px;
+}
+
+.media_block_screens_img_monitor_ellipse_text{
+    color: #ffffff;
+    font-family: PT Sans Narrow Bold;
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.51px;
+}
+
+.media_block_screens_img_mobile{
+    margin-left: 24px;
+}
+
+.media_block_screens_list {
+    padding-top: 63px;
+    padding-left: 69px;
+}
+
+.media_block_screens_list_ul{
+    list-style-type: none;
+}
+
+.media_block_screens_list_ul_li{
+    list-style-image: url(./assets/img/media\ screens\ block/marker.png);
+    font-family: Open Sans Regular;
+    font-size: 22px;
+    color: #a9a9a7;
+    letter-spacing: 0.22px;
+    margin-top: 25px;
+    line-height: 1.2;
+    padding-left: 17px;
+}
+
+
+.media_block_screens_list_ul_li:nth-child(3){
+    margin-top: 13px;
+}
