@@ -57,6 +57,10 @@ body{
     font-size: 16px;
 }
 
+.scroll_slider_block_twitter_comments_mobile{
+    display:none;
+}
+
 .wrapper{
     display: flex;
     flex-direction: column;
@@ -575,7 +579,7 @@ media */
 @media(max-width: 640px){
 
     .wrapper{
-    width: 640px;
+        max-width: 640px;
     display: block;
     height: 100vh;
     margin: 0 auto;
@@ -887,6 +891,7 @@ media */
     outline: none;
     display: block;
     border: 1px solid #d0a806;
+    padding-left: 10px;
 }
 
 .twitter_submit{
